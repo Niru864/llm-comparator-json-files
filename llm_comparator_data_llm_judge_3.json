@@ -1,0 +1,82 @@
+{
+    "metadata": {
+        "source_path": "output_few_20240825_015827_full_prompts.xlsx",
+        "custom_fields_schema": []
+    },
+    "models": [
+        {
+            "name": "3.5-turbo"
+        },
+        {
+            "name": "4-turbo"
+        }
+    ],
+    "examples": [
+        {
+            "input_text": "Here is a text: 'If the surface is a plane, then the shortest curve is a line.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "line, plane, shortest curve, surface",
+            "output_text_b": "if the surface is a plane, then the shortest curve is a line.",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'The tangent is the xaxis, which cuts the graph at this point.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "graph, tangent, x-axis",
+            "output_text_b": NaN,
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'Multiplication denoted by juxtaposition also known as implied multiplication creates a visual unit and has higher precedence than most other operations.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "multiplication denoted by juxtaposition, precedence, visual unit",
+            "output_text_b": "higher precedence., implied multiplication, multiplication denoted by juxtaposition,",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'It turns out that it is enough to take only the first and last in the sequence, i.e., the norm defined by is equivalent to the norm above i.e. the induced topologies of the norms are the same.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": NaN,
+            "output_text_b": "i.e., the norm defined by is equivalent to the norm above, induced topologies, norm, sequence",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'The entries of the table that involve a time delay \u03c4 are required to be causal meaning that \u03c4  0.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": NaN,
+            "output_text_b": "a time delay \u03c4, causal, \u03c4  0",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: '\u03c9  \u03c9  \u03c9  2  \u03c9 \u03c9  3 \u03c9  2 \u03c9 32 x              2   Division by infinity for example, with omegas or alephs is not meaningful.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                0
+            ],
+            "output_text_a": NaN,
+            "output_text_b": "alephs, division by infinity., \u03c9",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        }
+    ]
+}
