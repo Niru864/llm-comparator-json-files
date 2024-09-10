@@ -29,7 +29,7 @@
                 1
             ],
             "output_text_a": "graph, tangent, x-axis",
-            "output_text_b": NaN,
+            "output_text_b": "none",
             "score": 0,
             "individual_rater_scores": [],
             "custom_fields": {}
@@ -50,7 +50,7 @@
             "tags": [
                 1
             ],
-            "output_text_a": NaN,
+            "output_text_a": "none",
             "output_text_b": "i.e., the norm defined by is equivalent to the norm above, induced topologies, norm, sequence",
             "score": 0,
             "individual_rater_scores": [],
@@ -61,7 +61,7 @@
             "tags": [
                 1
             ],
-            "output_text_a": NaN,
+            "output_text_a": "none",
             "output_text_b": "a time delay \u03c4, causal, \u03c4  0",
             "score": 0,
             "individual_rater_scores": [],
@@ -72,7 +72,7 @@
             "tags": [
                 0
             ],
-            "output_text_a": NaN,
+            "output_text_a": "none",
             "output_text_b": "alephs, division by infinity., \u03c9",
             "score": 0,
             "individual_rater_scores": [],
