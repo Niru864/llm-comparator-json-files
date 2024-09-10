@@ -1,0 +1,82 @@
+{
+    "metadata": {
+        "source_path": "output_few_20240825_015827_full_prompts.xlsx",
+        "custom_fields_schema": []
+    },
+    "models": [
+        {
+            "name": "3.5-turbo"
+        },
+        {
+            "name": "4-turbo"
+        }
+    ],
+    "examples": [
+        {
+            "input_text": "Here is a text: 'For example, coexisting chaotic and nonchaotic may appear within the same model e.g., the double pendulum system using the same modeling configurations but different initial conditions.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "coexisting chaotic and nonchaotic, double pendulum system, initial conditions, modeling configurations",
+            "output_text_b": "coexisting chaotic and nonchaotic, double pendulum system",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'Any function f  x    R n  R m mathbb  to mathbb   can then be projected on the path as a 1D function f  s  t    .'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "1d function, mathbb, projected, r m, r n",
+            "output_text_b": "function, mathbb, projected on the path as a 1d function, r m, r n",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'Conways 1970 paper on knot theory also contains a typographical duplication on its nonalternating 11crossing knots page and omits 4 examples  2 previously listed in D. Lombarderos 1968 Princeton senior thesis and 2 more subsequently discovered by Alain Caudron.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": NaN,
+            "output_text_b": "alain caudron, d. lombardero's 1968 princeton senior thesis, nonalternating 11-crossing knots",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'One can also note that the function being integrated is the upper right quarter of a circle with a radius of one, and hence integrating the upper right quarter from zero to one is the geometric equivalent to the area of one quarter of the unit circle, or \u03c0 4 . .'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "function being integrated, geometric equivalent., upper right quarter of a circle,",
+            "output_text_b": "function, geometric equivalent, integrated, upper right quarter of a circle, \u03c0/4",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'To emphasize that the Titan V is not a gaming card, Nvidia removed the GeForce GTX suffix it adds to consumer gaming cards.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "geforce gtx, nvidia, titan v",
+            "output_text_b": "gaming card, geforce gtx suffix",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'The kind of algebras studied by von Neumann and his contemporaries are now known as von Neumann algebras.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "algebras, von neumann algebras, von neumann",
+            "output_text_b": "von neumann algebras, von neumann and his contemporaries",
+            "score": 0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        }
+    ]
+}
