@@ -1,0 +1,148 @@
+{
+    "metadata": {
+        "source_path": "output_few_20240825_015827_full_prompts.xlsx",
+        "custom_fields_schema": []
+    },
+    "models": [
+        {
+            "name": "3.5-turbo"
+        },
+        {
+            "name": "4-turbo"
+        }
+    ],
+    "examples": [
+        {
+            "input_text": "Here is a text: 'For example, coexisting chaotic and nonchaotic may appear within the same model e.g., the double pendulum system using the same modeling configurations but different initial conditions.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": \"The text provided contains technical terms like 'coexisting chaotic and nonchaotic', 'double pendulum system', 'modeling configurations', and 'initial conditions', which are likely to be more complex for readers who are not familiar with these concepts. The sentence structure is also more advanced with multiple clauses and technical language, indicating a higher level of complexity.\" }",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": \"The text uses technical terms and presents concepts that are not immediately clear without specific background knowledge, such as 'coexisting chaotic and nonchaotic', and 'double pendulum system'. It also involves an abstract example that does not directly explain the terms it uses, increasing its complexity for general understanding.\" }",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'For example, coexisting chaotic and nonchaotic may appear within the same model e.g., the double pendulum system using the same modeling configurations but different initial conditions.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": \"The text uses technical terms and presents concepts that are not immediately clear without specific background knowledge, such as 'coexisting chaotic and nonchaotic', and 'double pendulum system'. It also involves an abstract example that does not directly explain the terms it uses, increasing its complexity for general understanding.\" }",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": \"The text provided contains technical terms like 'coexisting chaotic and nonchaotic', 'double pendulum system', 'modeling configurations', and 'initial conditions', which are likely to be more complex for readers who are not familiar with these concepts. The sentence structure is also more advanced with multiple clauses and technical language, indicating a higher level of complexity.\" }",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'Any function f  x    R n  R m mathbb  to mathbb   can then be projected on the path as a 1D function f  s  t    .'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": \"The provided text contains complex mathematical notation and terminology such as 'R n', 'R m', 'mathbb', '1D function', and 'projected', which are not commonly used in everyday language. This indicates that the text is written in a more specialized and technical manner, making it complex English.\" }",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": 'The text includes specialized mathematical notation and concepts that are not easily understood without specific knowledge in mathematics. Terms like \"function\", \"R n\", \"R m\", \"mathbb\", and \"projected on the path as a 1D function\" are indicative of mathematical language that would likely be confusing to a general audience. Such jargon and structuring are typical of complex English in academic or technical contexts.'}",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'Any function f  x    R n  R m mathbb  to mathbb   can then be projected on the path as a 1D function f  s  t    .'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": 'The text includes specialized mathematical notation and concepts that are not easily understood without specific knowledge in mathematics. Terms like \"function\", \"R n\", \"R m\", \"mathbb\", and \"projected on the path as a 1D function\" are indicative of mathematical language that would likely be confusing to a general audience. Such jargon and structuring are typical of complex English in academic or technical contexts.'}",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": \"The provided text contains complex mathematical notation and terminology such as 'R n', 'R m', 'mathbb', '1D function', and 'projected', which are not commonly used in everyday language. This indicates that the text is written in a more specialized and technical manner, making it complex English.\" }",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'Conways 1970 paper on knot theory also contains a typographical duplication on its nonalternating 11crossing knots page and omits 4 examples  2 previously listed in D. Lombarderos 1968 Princeton senior thesis and 2 more subsequently discovered by Alain Caudron.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": \"The text provided contains complex and technical language related to a specific mathematical topic (knot theory), references to specific papers and authors, and mentions of specific examples and discoveries in the field. This level of technical detail and specificity is characteristic of complex English.\" }",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": \"The text provided is classified as Complex English for several reasons: It uses specific terminology related to mathematics and knot theory (e.g., 'nonalternating 11-crossing knots'), which requires specialized knowledge to understand fully. It references academic works and authors ('D. Lombardero's 1968 Princeton senior thesis', 'Alain Caudron'), which adds complexity through implicit knowledge. The sentence structure includes nested information and lacks clarifying conjunctions, making it harder to parse for general audiences.\" }",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'Conways 1970 paper on knot theory also contains a typographical duplication on its nonalternating 11crossing knots page and omits 4 examples  2 previously listed in D. Lombarderos 1968 Princeton senior thesis and 2 more subsequently discovered by Alain Caudron.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": \"The text provided is classified as Complex English for several reasons: It uses specific terminology related to mathematics and knot theory (e.g., 'nonalternating 11-crossing knots'), which requires specialized knowledge to understand fully. It references academic works and authors ('D. Lombardero's 1968 Princeton senior thesis', 'Alain Caudron'), which adds complexity through implicit knowledge. The sentence structure includes nested information and lacks clarifying conjunctions, making it harder to parse for general audiences.\" }",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": \"The text provided contains complex and technical language related to a specific mathematical topic (knot theory), references to specific papers and authors, and mentions of specific examples and discoveries in the field. This level of technical detail and specificity is characteristic of complex English.\" }",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'One can also note that the function being integrated is the upper right quarter of a circle with a radius of one, and hence integrating the upper right quarter from zero to one is the geometric equivalent to the area of one quarter of the unit circle, or \u03c0 4 . .'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": 'The text contains technical language related to mathematics and integrals, such as \"function being integrated,\" \"upper right quarter of a circle,\" and \"geometric equivalent.\" This level of technical terminology makes the text more complex and less likely to be classified as Simple English.' }",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": \"The text provided uses specialized mathematical concepts and terminology such as 'function', 'integrated', and 'geometric equivalent' that may not be easily understandable without specific knowledge in mathematics. Additionally, phrases like 'upper right quarter of a circle' and mathematical expressions like '\u03c0/4' add to the complexity, making it more aligned with Complex English rather than Simple English.\" }",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'One can also note that the function being integrated is the upper right quarter of a circle with a radius of one, and hence integrating the upper right quarter from zero to one is the geometric equivalent to the area of one quarter of the unit circle, or \u03c0 4 . .'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": \"The text provided uses specialized mathematical concepts and terminology such as 'function', 'integrated', and 'geometric equivalent' that may not be easily understandable without specific knowledge in mathematics. Additionally, phrases like 'upper right quarter of a circle' and mathematical expressions like '\u03c0/4' add to the complexity, making it more aligned with Complex English rather than Simple English.\" }",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": 'The text contains technical language related to mathematics and integrals, such as \"function being integrated,\" \"upper right quarter of a circle,\" and \"geometric equivalent.\" This level of technical terminology makes the text more complex and less likely to be classified as Simple English.' }",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'To emphasize that the Titan V is not a gaming card, Nvidia removed the GeForce GTX suffix it adds to consumer gaming cards.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": 'The text contains technical terminology related to graphics cards, such as \"Titan V\", \"Nvidia\", \"GeForce GTX\", which may not be familiar to a general audience. Additionally, the sentence structure is more complex, involving removing suffixes and specifying the target audience for the card, indicating a higher level of language complexity.'}",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": 'The sentence uses specialized vocabulary such as \"GeForce GTX suffix\" and \"gaming card,\" which are specific to the context of graphics cards and may not be easily understood by laypersons without background knowledge in technology or gaming hardware. Furthermore, the structure of the sentence involves an implication about Nvidia's marketing strategy, which adds a layer of complexity beyond simple factual statements.'}",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'To emphasize that the Titan V is not a gaming card, Nvidia removed the GeForce GTX suffix it adds to consumer gaming cards.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": 'The sentence uses specialized vocabulary such as \"GeForce GTX suffix\" and \"gaming card,\" which are specific to the context of graphics cards and may not be easily understood by laypersons without background knowledge in technology or gaming hardware. Furthermore, the structure of the sentence involves an implication about Nvidia's marketing strategy, which adds a layer of complexity beyond simple factual statements.'}",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": 'The text contains technical terminology related to graphics cards, such as \"Titan V\", \"Nvidia\", \"GeForce GTX\", which may not be familiar to a general audience. Additionally, the sentence structure is more complex, involving removing suffixes and specifying the target audience for the card, indicating a higher level of language complexity.'}",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'The kind of algebras studied by von Neumann and his contemporaries are now known as von Neumann algebras.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": 'The text contains specialized terms (\"algebras, von Neumann algebras\") and references specific individuals (\"von Neumann\"). This indicates a higher level of complexity typically found in academic or technical language.'}",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": 'The text uses specialized terminology such as \"von Neumann algebras\" which refers to a specific concept in mathematics that is not commonly understood without specific knowledge or context. Additionally, the text references \"von Neumann and his contemporaries\", implying historical and academic context that adds to the complexity. This makes the sentence less accessible to a general audience, aligning it more with Complex English characteristics.'}",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        },
+        {
+            "input_text": "Here is a text: 'The kind of algebras studied by von Neumann and his contemporaries are now known as von Neumann algebras.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
+            "tags": [
+                1
+            ],
+            "output_text_a": "{\"predicted\": 1,\"reasoning\": 'The text uses specialized terminology such as \"von Neumann algebras\" which refers to a specific concept in mathematics that is not commonly understood without specific knowledge or context. Additionally, the text references \"von Neumann and his contemporaries\", implying historical and academic context that adds to the complexity. This makes the sentence less accessible to a general audience, aligning it more with Complex English characteristics.'}",
+            "output_text_b": "{\"predicted\": 1,\"reasoning\": 'The text contains specialized terms (\"algebras, von Neumann algebras\") and references specific individuals (\"von Neumann\"). This indicates a higher level of complexity typically found in academic or technical language.'}",
+            "score": 0.0,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        }
+    ]
+}
