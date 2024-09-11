@@ -17,19 +17,10 @@
             "tags": [
                 1
             ],
-            "output_text_a": "The text contains complex and technical language such as 'document certificate hashes' and references to a specific publication in The New York Times. Such terminology may not be easily understood by individuals unfamiliar with cryptography or publishing practices, suggesting that the text is more complex in nature.",
-            "output_text_b": "The text is considered Simple English as it uses commonly understood vocabulary and a straightforward sentence structure without any intricate terminology or nested clauses. Additionally, the sentence presents information directly and concisely, which is characteristic of Simple English.'",
-            "score": 0,
-            "custom_fields": {}
-        },
-        {
-            "input_text": "Here is a text: 'Under their company Surety, their document certificate hashes have been published in The New York Times every week since 1995.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
-            "tags": [
-                1
-            ],
-            "output_text_a": "The text is considered Simple English as it uses commonly understood vocabulary and a straightforward sentence structure without any intricate terminology or nested clauses. Additionally, the sentence presents information directly and concisely, which is characteristic of Simple English.'",
-            "output_text_b": "The text contains complex and technical language such as 'document certificate hashes' and references to a specific publication in The New York Times. Such terminology may not be easily understood by individuals unfamiliar with cryptography or publishing practices, suggesting that the text is more complex in nature.",
-            "score": 0,
+            "output_text_a": "{\"predicted\": 1, \"reasoning\": \"The text contains complex and technical language such as 'document certificate hashes' and references to a specific publication in The New York Times. Such terminology may not be easily understood by individuals unfamiliar with cryptography or publishing practices, suggesting that the text is more complex in nature.\"}",
+            "output_text_b": "{\"predicted\": 0, \"reasoning\": \"The text is considered Simple English as it uses commonly understood vocabulary and a straightforward sentence structure without any intricate terminology or nested clauses. Additionally, the sentence presents information directly and concisely, which is characteristic of Simple English.'\"}",
+            "score": 1.0,
+            "individual_rater_scores": [],
             "custom_fields": {}
         },
         {
@@ -37,19 +28,10 @@
             "tags": [
                 0
             ],
-            "output_text_a": "The text contains technical terminology and complex concepts related to mathematical formulas and the cross product, indicating a higher level of complexity typically found in academic or specialized fields.'",
-            "output_text_b": "The text uses technical terms such as \"cross product\" and \"embedded\" which are specific to the field of mathematics, and may not be easily understood by general audiences. Moreover, the structure of the sentence is complex, incorporating a dependent clause which adds to the complexity of understanding the sentence.'",
-            "score": 0,
-            "custom_fields": {}
-        },
-        {
-            "input_text": "Here is a text: 'Note that because of the presence of the cross product, the above formulas only work for surfaces embedded in three dimensional space.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
-            "tags": [
-                0
-            ],
-            "output_text_a": "The text uses technical terms such as \"cross product\" and \"embedded\" which are specific to the field of mathematics, and may not be easily understood by general audiences. Moreover, the structure of the sentence is complex, incorporating a dependent clause which adds to the complexity of understanding the sentence.'",
-            "output_text_b": "The text contains technical terminology and complex concepts related to mathematical formulas and the cross product, indicating a higher level of complexity typically found in academic or specialized fields.'",
-            "score": 0,
+            "output_text_a": "{\"predicted\": 1, \"reasoning\": \"The text contains technical terminology and complex concepts related to mathematical formulas and the cross product, indicating a higher level of complexity typically found in academic or specialized fields.'\"}",
+            "output_text_b": "{\"predicted\": 1, \"reasoning\": \"The text uses technical terms such as \\\"cross product\\\" and \\\"embedded\\\" which are specific to the field of mathematics, and may not be easily understood by general audiences. Moreover, the structure of the sentence is complex, incorporating a dependent clause which adds to the complexity of understanding the sentence.'\"}",
+            "score": 0.0,
+            "individual_rater_scores": [],
             "custom_fields": {}
         },
         {
@@ -57,19 +39,10 @@
             "tags": [
                 1
             ],
-            "output_text_a": "The text contains technical language related to computer graphics and rendering, which may be difficult for those unfamiliar with the subject to understand easily. Therefore, it is considered Complex English.'",
-            "output_text_b": "The text provided comprises more technical vocabulary and a sophisticated sentence structure. Terms like 'skeletal model,' 'compute,' 'position and orientation,' and 'rendered' are not commonly found in everyday language and are specific to particular fields, making the sentence relatively complex. Furthermore, the sentence construction involves multiple clauses and the integration of technical processes described in a single statement, adding to its complexity.",
-            "score": 0,
-            "custom_fields": {}
-        },
-        {
-            "input_text": "Here is a text: 'The computer does not usually render the skeletal model directly it is invisible, but it does use the skeletal model to compute the exact position and orientation of that certain character, which is eventually rendered into an image.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
-            "tags": [
-                1
-            ],
-            "output_text_a": "The text provided comprises more technical vocabulary and a sophisticated sentence structure. Terms like 'skeletal model,' 'compute,' 'position and orientation,' and 'rendered' are not commonly found in everyday language and are specific to particular fields, making the sentence relatively complex. Furthermore, the sentence construction involves multiple clauses and the integration of technical processes described in a single statement, adding to its complexity.",
-            "output_text_b": "The text contains technical language related to computer graphics and rendering, which may be difficult for those unfamiliar with the subject to understand easily. Therefore, it is considered Complex English.'",
-            "score": 0,
+            "output_text_a": "{\"predicted\": 1, \"reasoning\": \"The text contains technical language related to computer graphics and rendering, which may be difficult for those unfamiliar with the subject to understand easily. Therefore, it is considered Complex English.'\"}",
+            "output_text_b": "{\"predicted\": 1, \"reasoning\": \"The text provided comprises more technical vocabulary and a sophisticated sentence structure. Terms like 'skeletal model,' 'compute,' 'position and orientation,' and 'rendered' are not commonly found in everyday language and are specific to particular fields, making the sentence relatively complex. Furthermore, the sentence construction involves multiple clauses and the integration of technical processes described in a single statement, adding to its complexity.\"}",
+            "score": 1.0,
+            "individual_rater_scores": [],
             "custom_fields": {}
         },
         {
@@ -77,19 +50,10 @@
             "tags": [
                 1
             ],
-            "output_text_a": "The text provided contains complex mathematical language and terminology such as 'k 1th order partial derivatives', 'exist in some neighborhood', and 'differentiable at a'. These concepts are typically found in advanced mathematical discussions, making the text more complex in nature.",
-            "output_text_b": "The text includes specialized mathematical terminology such as \"k 1th order partial derivatives\" and concepts like \"differentiable at a\", which are not common in everyday language or understood by a general audience without specific mathematical background. Such phrasing and the compact delivery of complex ideas place the sentence in a higher complexity category more akin to academic or technical writing, making it complex English.'",
-            "score": 0,
-            "custom_fields": {}
-        },
-        {
-            "input_text": "Here is a text: 'The same is true if all the k  1th order partial derivatives of f exist in some neighborhood of a and are differentiable at a.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
-            "tags": [
-                1
-            ],
-            "output_text_a": "The text includes specialized mathematical terminology such as \"k 1th order partial derivatives\" and concepts like \"differentiable at a\", which are not common in everyday language or understood by a general audience without specific mathematical background. Such phrasing and the compact delivery of complex ideas place the sentence in a higher complexity category more akin to academic or technical writing, making it complex English.'",
-            "output_text_b": "The text provided contains complex mathematical language and terminology such as 'k 1th order partial derivatives', 'exist in some neighborhood', and 'differentiable at a'. These concepts are typically found in advanced mathematical discussions, making the text more complex in nature.",
-            "score": 0,
+            "output_text_a": "{\"predicted\": 1, \"reasoning\": \"The text provided contains complex mathematical language and terminology such as 'k 1th order partial derivatives', 'exist in some neighborhood', and 'differentiable at a'. These concepts are typically found in advanced mathematical discussions, making the text more complex in nature.\"}",
+            "output_text_b": "{\"predicted\": 1, \"reasoning\": \"The text includes specialized mathematical terminology such as \\\"k 1th order partial derivatives\\\" and concepts like \\\"differentiable at a\\\", which are not common in everyday language or understood by a general audience without specific mathematical background. Such phrasing and the compact delivery of complex ideas place the sentence in a higher complexity category more akin to academic or technical writing, making it complex English.'\"}",
+            "score": 1.0,
+            "individual_rater_scores": [],
             "custom_fields": {}
         },
         {
@@ -97,19 +61,10 @@
             "tags": [
                 1
             ],
-            "output_text_a": "The text contains complex technical terms such as 'mathematical concept of infinity', 'philosophical concept', 'infinite sets', which may not be easily understood by individuals with limited knowledge of these subjects.",
-            "output_text_b": "The text utilizes specialized vocabulary such as \"mathematical concept\", \"infinity\", \"philosophical concept\", \"infinitely\", and \"infinite sets\", which are not typically familiar to general audiences. Additionally, the text discusses abstract concepts that extend the understanding of infinity, which require prior knowledge in mathematics and philosophy to fully comprehend. This complexity in terminology and concept elevation aligns more closely with the characteristics of complex English.'",
-            "score": 0,
-            "custom_fields": {}
-        },
-        {
-            "input_text": "Here is a text: 'The mathematical concept of infinity refines and extends the old philosophical concept, in particular by introducing infinitely many different sizes of infinite sets.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
-            "tags": [
-                1
-            ],
-            "output_text_a": "The text utilizes specialized vocabulary such as \"mathematical concept\", \"infinity\", \"philosophical concept\", \"infinitely\", and \"infinite sets\", which are not typically familiar to general audiences. Additionally, the text discusses abstract concepts that extend the understanding of infinity, which require prior knowledge in mathematics and philosophy to fully comprehend. This complexity in terminology and concept elevation aligns more closely with the characteristics of complex English.'",
-            "output_text_b": "The text contains complex technical terms such as 'mathematical concept of infinity', 'philosophical concept', 'infinite sets', which may not be easily understood by individuals with limited knowledge of these subjects.",
-            "score": 0,
+            "output_text_a": "{\"predicted\": 1, \"reasoning\": \"The text contains complex technical terms such as 'mathematical concept of infinity', 'philosophical concept', 'infinite sets', which may not be easily understood by individuals with limited knowledge of these subjects.\"}",
+            "output_text_b": "{\"predicted\": 1, \"reasoning\": \"The text utilizes specialized vocabulary such as \\\"mathematical concept\\\", \\\"infinity\\\", \\\"philosophical concept\\\", \\\"infinitely\\\", and \\\"infinite sets\\\", which are not typically familiar to general audiences. Additionally, the text discusses abstract concepts that extend the understanding of infinity, which require prior knowledge in mathematics and philosophy to fully comprehend. This complexity in terminology and concept elevation aligns more closely with the characteristics of complex English.'\"}",
+            "score": 1.0,
+            "individual_rater_scores": [],
             "custom_fields": {}
         },
         {
@@ -117,19 +72,10 @@
             "tags": [
                 1
             ],
-            "output_text_a": "The text contains specific technical terms related to computer science such as \"barrel shifter circuit\", \"CPU\", \"framebuffer graphics\", \"arcade video games\", and mentions specific games from the 1970s. These terms are likely to be unfamiliar to a general audience, indicating a more complex English level.'",
-            "output_text_b": "The text uses specialized vocabulary such as \"barrel shifter circuit,\" \"CPU,\" \"framebuffer,\" and specific references to arcade video games like \"Gun Fight 1975,\" \"Sea Wolf 1976,\" and \"Space Invaders 1978.\" Additionally, the phrasing \"animate the framebuffer graphics\" involves technical terms that are not typically understood by a layman without specific knowledge or context. These elements make the sentence less accessible to general readers, aligning it with the characteristics of complex English.'",
-            "score": 0,
-            "custom_fields": {}
-        },
-        {
-            "input_text": "Here is a text: 'A specialized barrel shifter circuit helped the CPU animate the framebuffer graphics for various 1970s arcade video games from Midway and Taito, such as Gun Fight 1975, Sea Wolf 1976, and Space Invaders 1978.'. Determine if the text is Simple English (output integer 0) or Complex English (output integer 1) and provide reasoning. Return the result in the following JSON format: {'predicted': 0 or 1, 'reasoning': '<your explanation here>'",
-            "tags": [
-                1
-            ],
-            "output_text_a": "The text uses specialized vocabulary such as \"barrel shifter circuit,\" \"CPU,\" \"framebuffer,\" and specific references to arcade video games like \"Gun Fight 1975,\" \"Sea Wolf 1976,\" and \"Space Invaders 1978.\" Additionally, the phrasing \"animate the framebuffer graphics\" involves technical terms that are not typically understood by a layman without specific knowledge or context. These elements make the sentence less accessible to general readers, aligning it with the characteristics of complex English.'",
-            "output_text_b": "The text contains specific technical terms related to computer science such as \"barrel shifter circuit\", \"CPU\", \"framebuffer graphics\", \"arcade video games\", and mentions specific games from the 1970s. These terms are likely to be unfamiliar to a general audience, indicating a more complex English level.'",
-            "score": 0,
+            "output_text_a": "{\"predicted\": 1, \"reasoning\": \"The text contains specific technical terms related to computer science such as \\\"barrel shifter circuit\\\", \\\"CPU\\\", \\\"framebuffer graphics\\\", \\\"arcade video games\\\", and mentions specific games from the 1970s. These terms are likely to be unfamiliar to a general audience, indicating a more complex English level.'\"}",
+            "output_text_b": "{\"predicted\": 1, \"reasoning\": \"The text uses specialized vocabulary such as \\\"barrel shifter circuit,\\\" \\\"CPU,\\\" \\\"framebuffer,\\\" and specific references to arcade video games like \\\"Gun Fight 1975,\\\" \\\"Sea Wolf 1976,\\\" and \\\"Space Invaders 1978.\\\" Additionally, the phrasing \\\"animate the framebuffer graphics\\\" involves technical terms that are not typically understood by a layman without specific knowledge or context. These elements make the sentence less accessible to general readers, aligning it with the characteristics of complex English.'\"}",
+            "score": 1.0,
+            "individual_rater_scores": [],
             "custom_fields": {}
         }
     ]
