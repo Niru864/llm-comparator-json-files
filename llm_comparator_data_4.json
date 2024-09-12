@@ -6,7 +6,7 @@
     "models": [
         {
             "name": "3.5-turbo"
-        },
+        },  
         {
             "name": "4-turbo"
         }
